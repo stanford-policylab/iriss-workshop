@@ -1,6 +1,9 @@
 IRiSS 2019 Summer Workshop: Introduction to Python
 ===
 
+This guide will help you get oriented before attending the Python workshop.
+After reading, you should have some idea of what both `Python` and `JupyterLab` are, why you are learning them, and have them installed and working on your computer.
+
 # 0. Python
 
 Python is one of the most widely used programming languages in the world.
