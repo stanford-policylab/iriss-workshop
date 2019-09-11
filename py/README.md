@@ -25,9 +25,10 @@ But also, across both science and industry, developers have built state-of-the-a
 
  * `numpy` - high-performance numerical computing
  * `scipy` - builds on `numpy` to implement a number of algorithms and techniques
+ * `pandas` - data manipulation and analysis
  * `nltk` - natural language processing algorithms, models, etc.
  * `spacy` - high-performance NLP
- * `tensorflow` - machine learning
+ * `tensorflow` and `torch` - deep learning
  * `flask` - build websites and APIs
  * `scrapy` - scrape websites
 
