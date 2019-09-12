@@ -4,6 +4,36 @@ IRiSS 2019 Summer Workshop: Introduction to R
 This guide will help you get oriented before attending the R workshop.
 After reading, you should have some idea of what `JupyterLab`, `R`, and `tidyverse` are, why you are learning them, and have them installed and working on your computer.
 
+# Why R?
+
+R, along with the 'tidyverse', a collection of packages augmenting R's capabilities, is the premier programming language for doing data science. 
+
+![Data Cycle, Import to Tidy to transform to visualize to model to communicate](https://raw.githubusercontent.com/stanford-policylab/iriss-workshop/master/R/materials/data_cycle.png)
+
+The above image is an stylized version of how modern data science is done in R in the `tidyverse`.  R comes with intuitive, clear tools to move through this cycle, allowing the data scientist to focus on thinking about scientific questions instead of data wrangling.
+
+Once the data has been gathered, cleaned, and imported, it is first tidied into a format which the data scientist can manipulate it:
+
+ * `tibble` - a modern table to hold your data in a sensible format.
+ 
+Then, the scientist transforms their data by filtering and summarizing it, asking questions like "what was the average number of arrests from 1990-1995 in each county?"
+ 
+ * `dplyr` - a grammar of data manipulation, providing a consistent set of verbs that help you solve the most common data manipulation challenges
+ 
+The scientist will then try to understand the answers to their questions by visualizing it.
+
+ * `ggplot2` - a system for declaratively creating graphics, with wide customizability and integration with tibbles.
+ 
+Given insights from the visualization, the scientist will try to explain the answer by modeling it. R can take a tibble and compute a model, ranging from simple models like linear and logistic regression to more complicated models like neural networks.  
+
+Finally, the scientist must communicate their results, whether it be with decision makers or the general public. There are several tools in R assist with this including
+
+ * `knitr` - an engine to directly take R code and turn it into a report.
+
+and the aforementioned `ggplot2` to make visualizations.
+ 
+Graphic from https://r4ds.had.co.nz/, description of tidyverse packages from https://www.tidyverse.org/, description of knitr from https://yihui.name/knitr/.
+
 # 0. Python
 
 In order to use `JupyerLab`, you need to have Python installed on your computer.
