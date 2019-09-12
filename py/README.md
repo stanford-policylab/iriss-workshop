@@ -104,6 +104,17 @@ python -m pip install jupyterlab
 If that fails, try following more detailed instructions here:
 https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html#pip
 
+### Installing Python3 kernel
+
+Ensure that the Python3 kernel is available by running the following in a terminal:
+
+```
+python3 -m pip install ipykernel
+python3 -m ipykernel install --user
+```
+
+This lets you use Python3 when running JupyterLab.
+
 ## Running
 
 Now in your terminal run the following command by typing it and pressing return:
