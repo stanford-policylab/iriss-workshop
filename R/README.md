@@ -16,7 +16,7 @@ Once the data have been gathered, cleaned, and imported, it is first tidied into
 
  * `tibble` - a modern table to hold your data in a sensible format.
  
-Then, one transforms their data by filtering and summarizing it, asking questions like "what was the average number of people from 1990-1995 in each county?"
+Then, one transforms their data by filtering and summarizing it, asking questions like "what was the average number of people who were awarded college degrees between 1990-1995 in each state?"
  
  * `dplyr` - a grammar of data manipulation, providing a consistent set of verbs that help you solve the most common data manipulation challenges
  
@@ -36,7 +36,7 @@ Graphic from https://r4ds.had.co.nz/, description of tidyverse packages from htt
 
 # 0. Python
 
-In order to use `JupyerLab`, you need to have Python installed on your computer.
+In order to use `JupyterLab`, you need to have Python installed on your computer.
 You will not be learning anything about how to use Python during this workshop.
 
 ## Checking installation
