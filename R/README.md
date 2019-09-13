@@ -8,7 +8,7 @@ After reading, you should have some idea of what `JupyterLab`, `R`, and `tidyver
 
 R, along with the 'tidyverse', a collection of packages augmenting R's capabilities, is one of the primary programming languages for doing data science. 
 
-![Data Cycle, Import to Tidy to transform to visualize to model to communicate](https://raw.githubusercontent.com/stanford-policylab/iriss-workshop/master/R/materials/data_cycle.png)
+![Data Cycle, Import to Tidy to transform to visualize to model to communicate](https://raw.githubusercontent.com/stanford-policylab/iriss-workshop/master/R/img/data_cycle.png)
 
 The above image is a stylized version of how modern data science is done in R in the `tidyverse`.  R comes with intuitive, clear tools to move through this cycle, allowing one to focus on thinking about scientific questions instead of data wrangling.
 
