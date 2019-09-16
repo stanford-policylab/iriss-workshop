@@ -13,6 +13,8 @@ If you are attending the Python workshop, follow the instructions in `py/README.
 
 Hopefully you can get [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) installed on your local computer. You can follow the guides in either the `R` or `py` READMEs for more information about how to configure the environment for those workshops.
 
-### JupyterHub
-
 Sometimes installing software goes badly. If you aren't able to get JupyterLab set up on your own, we will give you access to our cloud Jupyter platform: https://scpl-jupyter.org. Ask one of the workshop instructors for access (you will need a GitHub account to log in).
+
+### Slack
+
+To faciliate discussion during the workshop please join the `r-py-workshop` channel in the [Stanford Computational Social Science](https://stanford-css.slack.com) workspace. 
