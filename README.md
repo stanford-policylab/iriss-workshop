@@ -15,4 +15,4 @@ Hopefully you can get [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/)
 
 ### JupyterHub
 
-Sometimes installing software goes badly. If you aren't able to get JupyterLab set up on your own, we will give you access to our cloud Jupyter platform: https://scpl-jupyterhub.org. Ask one of the workshop instructors for access (you will need a GitHub account to log in).
+Sometimes installing software goes badly. If you aren't able to get JupyterLab set up on your own, we will give you access to our cloud Jupyter platform: https://scpl-jupyter.org. Ask one of the workshop instructors for access (you will need a GitHub account to log in).
