@@ -19,7 +19,7 @@ Sometimes installing software goes badly. If you aren't able to get JupyterLab s
 
 To faciliate discussion during the workshop please join the `r-py-workshop` channel in the [Stanford Computational Social Science](https://stanford-css.slack.com) workspace. 
 
-## Getting class materials
+### Getting class materials
 
 To get the class materials, open a terminal and enter the following command:
 
