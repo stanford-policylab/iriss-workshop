@@ -147,7 +147,9 @@ Now when you start JupyterLab with the `jupyter lab` command, you should see the
 ## Getting class materials
 
 In a terminal, type the command
+
 git clone https://github.com/stanford-policylab/iriss-workshop
+
 This will download the class materials as a git repository (https://git-scm.com/book/en/v1/Getting-Started-Git-Basics) onto your computer.
 
 ## Installing tidyverse
