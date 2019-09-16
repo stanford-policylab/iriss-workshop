@@ -11,10 +11,11 @@ def top_n(d, n = 5):
     Returns:
         None. (Prints the top `n` words as a side-effect.)
     """
-    d = sorted(d, key = d.get, reverse = True)
-    print(d[:n])
+    sorted_d = sorted(d, key = d.get, reverse = True)
+    for word in sorted_d[:n]:
+        print(word, "occurs", d[word], "times.")
 
-def make_dict(f)
+def make_dict(f):
     """Turns a file into a dictionary by tokenizing text using whitespace.
     
     Args:
@@ -23,10 +24,10 @@ def make_dict(f)
         A dictionary of `key:value` pairs where `key` is a token (i.e., word)
         and `value` is the number of occurences in the file.
     """
-    words = f.read().split(" \n\t")
-    {word:words.count(word) for word in set(words)}
+    words = f.read().split()
+    return {word:words.count(word) for word in set(words)}
 
 if __name__ == "__main__":
     with open(argv[1], "r") as f:
         d = make_dict(f)
-        top_n(d, n = argv[2])
+        top_n(d, n = int(argv[2]))
