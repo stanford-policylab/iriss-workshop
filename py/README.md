@@ -72,6 +72,8 @@ commands in this guide.
 
 If you don't have Python3 installed, you can download and install the latest release here:
 https://www.python.org/downloads/
+If you are using Windows, please ensure that when you install Python3, you check
+the box to include Python in your path.
 
 # 1. JupyterLab
 
@@ -130,3 +132,47 @@ If you do not see JupyterLab open, read the output of the command you ran in the
 If Jupyter started correctly, it should have printed to the screen the URL you can use to access Jupyter.
 
 **NOTE** Jupyter is now running locally on your computer; it is only visible to you. Nobody else can see your copy of Jupyter.
+
+# 2. Running JupyterLab on the cloud
+
+__NOTE:__ It is only necessary to follow these instructions if you were unable
+to install Python locally on your computer.
+
+## Get set up on GitHub
+
+Begin by creating a GitHub account (if you do not already have one) by clicking
+[here](https://github.com). (Be sure to click through _all the way_ to the end
+of the account creation process.)
+
+Then, have one of the instructors add you to the `@iriss-workshop` organization.
+There are two ways to do this:
+1. Log into the Stanford Computational Social Science workspace on Slack by
+   clicking [here](https://stanford-css.slack.com). Then, once Slack has opened
+   up, press <kbd>ctrl</kbd> + <kbd>k</kbd> and type `#r-py-workshop`. Click on
+   the (only) result to join the `#r-py-workshop` channel, and then post your
+   _GitHub_ username.
+  * __NOTE:__ If you do not have a SUNet ID, this option will not work.
+2. Flag one of the instructors walking around and have them add you to the
+   `@iriss-workshop` organization manually.
+
+Lastly, once you've been added to `@iriss-workshop`, you should receive an email
+at the email address you used to register for your GitHub account. This email
+will be an invitation to join `@iriss-workshop`. Click through the links all the
+way to the end to ensure that you've accepted the invitation.
+
+## Logging into the cloud
+
+Once you've been added to the `@iriss-workshop`, visit
+[scpl-jupyter.org](https://scpl-jupyter.org), and click `Sign in with GitHub`. 
+
+## Troubleshooting
+
+If you get error `403 - Forbidden` when you try to log into the cloud, one of
+two things has probably happened:
+1. The instructors haven't added you to the `@iriss-workshop` group. If you
+   haven't received an email from GitHub asking you to join the
+   `@iriss-workshop` group, this is almost certainly what happened. Just be
+   patient, and, if necessary, repost your username in the Slack channel.
+2. You haven't accepted an invitation to join the `@iriss-workshop` group. Make
+   sure you click through the link contained in the invitation email _all the
+   way_ to the end.
